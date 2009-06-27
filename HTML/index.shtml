@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="refresh" content="5">
+	<title>Ben's First Sensor-driven webpage</title>
+	
+	<style type="text/css">
+	body {
+		font-family: gill sans, helvetica, sans-serif;
+		font-weight: normal;
+		color: #000000;
+		background-color: #ffffff;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	h1 {
+		font-weight: normal;
+		font-size: 30pt;
+	}
+	
+	.sensor
+	{
+		color: #999999;
+		font-size: 30pt;
+	}
+	
+	p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	</style>
+	
+</head>
+
+<body>
+<h1>Ben's First Sensor-driven Webpage</h1>
+
+<p>It is currently</p>
+<p class="sensor">
+<!--#include file="state.txt" -->
+</p>
+
+<p>around the sensor<br/>on my desk.</p>
+
+
+
+</body>
+</html>
